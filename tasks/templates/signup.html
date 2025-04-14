@@ -1,3 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
 <h1>Sign Up</h1>
 
 <form action="/signup/" method="POST">
@@ -10,3 +12,4 @@
 
     {{error}}
 </form>
+{% endblock %}
